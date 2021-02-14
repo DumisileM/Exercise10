@@ -7,7 +7,7 @@ attempts_left = max_attempts - attempts
 # ask user for PIN
 supplied_pin = input("Enter your PIN: ")
 
-# while user hasn't reached the naximum attempts
+# while user hasn't reached the maximum attempts
 while 0 <= attempts < max_attempts:
     # increase number of attempts each time
     attempts += 1
